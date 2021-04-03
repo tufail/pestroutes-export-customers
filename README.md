@@ -2,9 +2,7 @@
 
 Using Pestroutes api export the customers list in csv
 
-run :
-
-###npm run start
+run : **npm run start**
 
 open url http://localhost:8080
 
