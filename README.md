@@ -1,4 +1,4 @@
-# pestroutes export bulk customers
+# Pestroutes export bulk customers
 
 Using Pestroutes api export bulk customer list in csv
 
