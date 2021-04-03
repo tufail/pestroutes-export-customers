@@ -50,7 +50,7 @@ http
     } else if (queryObject && queryObject.customerCsv) {
       //if customers csv in url and the number start With ... then request api for next 1000 items
       var customerArr = [];
-      fs.createReadStream(queryObject.customerCsv)
+      fs.createReadStream(`csv/${queryObject.customerCsv}`)
         .pipe(csv())
         .on('data', (row) => {
           if (queryObject.startWith) {
