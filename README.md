@@ -1,6 +1,6 @@
 # pestroutes-export-customers
 
-Using Pestroutes api export the customers list in csv
+Using Pestroutes api export bulk customer list in csv
 
 run : **npm run start**
 
